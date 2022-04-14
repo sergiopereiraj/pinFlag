@@ -1,7 +1,7 @@
 # PINFLAG NODE JS CHALLENGE
-## Nombre proyecto: 
+#### Nombre proyecto: 
 > Desafío para Backend Developer
-#### descripcion proyecto: 
+#### Descripcion proyecto: 
 > Desafío es tomar de base una API creada en Node.js con Express y sobre ella crear 3 endpoint:
 - Un primer endpoint que haga una request a la Rick and Morty API y retorne a lo más N personajes
 con su nombre, status, especie y nombre de lugar de origen solamente. El número N deberá poder ser
