@@ -15,11 +15,11 @@ Si ya existía tal personaje en la base, este endpoint deberá retornar su nombr
 su nombre de lugar de origen, si no, deberá buscarlo en la Rick and Morty API y retornar la misma
 infomación.
 #### Instalacion:
-> Se clona repositorio desde https://bitbucket.org/pinflag/node-js-challenge/src/master/, en mi caso lo use de forma local desde Visual studio code.
-> instalar a nivel de windown node.js
-> Instalar a nivel de windown docker
-> En terminal se no con el código `$npm install`
-> Levantar maquina virtual con Docker
+1. Se clona repositorio desde https://bitbucket.org/pinflag/node-js-challenge/src/master/, en mi caso lo use de forma local desde Visual studio code.
+2. Instalar a nivel de windown node.js
+3. Instalar a nivel de windown docker
+4. En terminal se no con el código `$npm install`
+5. Levantar maquina virtual con Docker
 #### Como usar:
 
 #### Como Contribuir:
