@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Pinflag test API",
   "main": "build/index.js",
-  "type": "commonjs",
   "scripts": {
     "dev": "nodemon ./src/index.js",
     "lint": "eslint --fix src",
