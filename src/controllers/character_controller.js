@@ -1,4 +1,3 @@
-import models from '../models'
 import BaseController from './base'
 
 export default class CharacterController extends BaseController {
