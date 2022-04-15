@@ -40,8 +40,26 @@ app.post('/nuevo', (req, res) => {
 })
 
 app.get('/buscador', (req, res) => {
-  // filtrar por algun parametro
-  res.send('Busca tu personaje')
+  axios({
+    method: 'get',
+    url: 'https://rickandmortyapi.com/api/character',
+    responseType: 'json'
+  })
+    .then(function (response) {
+      const resultado = response.data.results
+      const resJsonName = JSON.stringify(resultado, ['name'])
+      const buscar = JSON.parse(resJsonName).forEach(element => {
+        if (element.name === req) {
+          console.log('Existe!')
+        } else {
+          console.log('Lo siento')
+        }
+      })
+      return buscar
+    })
+    .catch(error => {
+      console.log(error)
+    })
 })
 
 startServer()
