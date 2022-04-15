@@ -18,7 +18,6 @@ const startServer = () => {
 }
 
 // Rutas
-
 app.get('/personajes', (req, res) => {
   axios({
     method: 'get',
@@ -27,14 +26,14 @@ app.get('/personajes', (req, res) => {
   })
     .then(function (response) {
       const resultado = response.data.results
-      res.send(resultado)
+      const resJson = JSON.stringify(resultado, ['name', 'status', 'species', 'origin'])
+      res.send(resJson)
     })
     .catch(error => {
       console.log(error)
     })
 }
 )
-
 app.post('/nuevo', (req, res) => {
   // como enviar con sequelize
   res.send(req.body)
