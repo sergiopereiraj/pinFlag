@@ -20,10 +20,6 @@ infomación.
 3. Instalar a nivel de windown docker
 4. En terminal se no con el código `$npm install`
 5. Levantar maquina virtual con Docker
-#### Como usar:
-
-#### Como Contribuir:
->
 
 ### Bibliografía
 ###### Para la realización de este proyecto me guie por la siguientes bibliografías:
@@ -36,3 +32,7 @@ infomación.
 - https://www.youtube.com/watch?v=r1JX0Xi8FMw&t=125s
 - https://www.youtube.com/watch?v=SdsaZ-t1QwA&t=374s
 - https://www.youtube.com/watch?v=_xxVJdGNMrs&t=144s
+- https://www.youtube.com/watch?v=FjHDjq78zfA 
+- https://stackoverflow.com/questions/60047204/successfully-post-form-data-to-express-app-use-sequelize-to-insert-into-mysql-d
+- https://stackoverflow.com/questions/14528385/how-to-convert-json-object-to-javascript-array
+- https://rickandmortyapi.com/documentation/#info-and-pagination
