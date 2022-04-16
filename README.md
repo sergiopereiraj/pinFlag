@@ -21,6 +21,11 @@ infomación.
 4. En terminal se no con el código `$npm install`
 5. Levantar maquina virtual con Docker
 
+#### Para usar de manera local:
+- Generar base de dato postgres en Docker segun el codigo entregado.
+- Activar base de dato en Docker
+- Mediante terminal, estando en carpeta "node-js-challenge" utilizar codigo `$npm run start`
+
 ### Bibliografía
 ###### Para la realización de este proyecto me guie por la siguientes bibliografías:
 - https://axios-http.com/docs/intro
